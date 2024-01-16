@@ -1,0 +1,129 @@
+{
+    "nav": [
+      { "title": "Services", "link": "#services" },
+      { "title": "Portfolio", "link": "#portfolio" },
+      { "title": "Expérience", "link": "#experience" },
+      { "title": "Contact", "link": "#contact" }
+    ],
+    "header": {
+      "title": "Développeur logiciel",
+      "text": "Je suis compétent en résolution de problèmes et en intégration d'interfaces utilisateur, tirant parti des outils et pratiques nécessaires pour fournir la solution dont vous avez besoin."
+    },
+    "services": {
+      "title": "Services",
+      "text": "En quoi consiste mon travail",
+      "items": [
+        { "title": "Développement Web", "text": "", "image": "/assets/img/web-dev.svg" },
+        { "title": "Développement Mobile", "text": "", "image": "/assets/img/mobile-dev.svg" },
+        { "title": "Optimisation des moteurs de recherche", "text": "", "image": "/assets/img/seo.svg" }
+      ]
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "text": "Projets réalisés ou auxquels j'ai participé",
+      "items": [
+        { "title": "Printpencil", "tags": ["HTML/CSS", "Bootstrap", "PHP", "cPanel"], "description": "Site de démonstration d'une entreprise fictive d'impression. Réalisé avec HTML, CSS, Bootstrap et PHP", "image": "/assets/img/prinpencil.png", "repo": "https://github.com/Mouhamed-B/Printpencil", "link": "" },
+        { "title": "LePapyrus", "tags": ["HTML/CSS", "Bootstrap", "PHP", "MySQL", "cPanel"], "description": "Application e-commerce écrite en PHP (procédural)", "image": "", "repo": "https://github.com/Mouhamed-B/Projet-Ecom", "link": "" },
+        { "title": "Hospital", "tags": ["HTML/CSS", "Bootstrap", "Javascript", "Jquery", "Python", "Django", "SQLite", "Heroku"], "description": "Page d'accueil et tableau de bord pour la gestion des messages et des rendez-vous, écrits avec Django et JQuery", "image": "", "repo": "https://github.com/Mouhamed-B/hospital", "link": "" },
+        { "title": "Samba", "tags": ["HTML/CSS", "SCSS", "Bootstrap", "Javascript", "Jquery", "Python", "Django", "SQLite", "Heroku"], "description": "", "image": "", "repo": "", "link": "" },
+        { "title": "Tiakbook app", "tags": ["Dart", "Flutter", "Firebase"], "description": "Application mobile pour exposer les services des coursiers indépendants", "image": "", "repo": "https://github.com/Mouhamed-B/tiakbookapp", "link": "" },
+        { "title": "Events news", "tags": ["HTML/CSS", "Javascript", "Typescript", "Angular"], "description": "Application de liste d'événements écrite avec Angular", "image": "", "repo": "https://github.com/Mouhamed-B/events-news", "link": "" },
+        { "title": "Travel App", "tags": ["HTML/CSS", "Javascript", "Vue.js"], "description": "Application de voyage pour les destinations et les images écrite avec Vue.js 3", "image": "", "repo": "https://github.com/Mouhamed-B/travel-app", "link": "" },
+        { "title": "Stock Management API", "tags": ["Java", "Spring Boot", "PostgreSQL"], "description": "API de gestion des stocks écrite avec Spring Boot", "image": "", "repo": "https://github.com/Mouhamed-B/stock-manager", "link": "" },
+        { "title": "Stock Management Web App", "tags": ["HTML/CSS", "Bootstrap", "Javascript", "Vue.js"], "description": "Client Web de l'application de gestion des stocks écrite avec Vue.js", "image": "", "repo": "https://github.com/Mouhamed-B/stock-manager-web", "link": "" },
+        { "title": "Tiakbook Web", "tags": ["HTML/CSS", "Javascript", "React.js", "MaterialUI", "Firebase"], "description": "Projet d'application de livraison web avec React et Material UI", "image": "", "repo": "https://github.com/Mouhamed-B/tiakbook-web", "link": "" }
+      ]
+    },
+    "skills": {
+      "languages": [
+        { "title": "HTML/CSS", "image": "https://storage.googleapis.com/turing_developers/icon/1632728104923_522e6bc1a11d1726a35f81cbd979395f.jpeg" },
+        { "title": "Javascript", "image": "https://storage.googleapis.com/turing_developers/icon/1626199422492_7899c1f7cf7e066d0fb4e6a0b1aa154c.png" },
+        { "title": "Typescript", "image": "https://storage.googleapis.com/turing_developers/icon/1626199422492_7899c1f7cf7e066d0fb4e6a0b1aa154c.png" },
+        { "title": "Java", "image": "https://storage.googleapis.com/turing_developers/icon/1626199422492_7899c1f7cf7e066d0fb4e6a0b1aa154c.png" },
+        { "title": "Python", "image": "https://storage.googleapis.com/turing_developers/icon/1632728657604_523124da530dace57d76921bfc46098d.png" },
+        { "title": "Dart", "image": "https://storage.googleapis.com/turing_developers/icon/1632728657604_523124da530dace57d76921bfc46098d.png" },
+        { "title": "SQL", "image": "https://storage.googleapis.com/turing_developers/icon/1626199422492_7899c1f7cf7e066d0fb4e6a0b1aa154c.png" }
+      ],
+      "frameworks": [
+        { "title": "Bootstrap", "image": "https://storage.googleapis.com/turing_developers/icon/1626199422492_7899c1f7cf7e066d0fb4e6a0b1aa154c.png" },
+        { "title": "Angular", "image": "https://storage.googleapis.com/turing_developers/icon/1604091754742_angular.png" },
+        { "title": "React.js", "image": "https://storage.googleapis.com/turing_developers/icon/1626199422492_7899c1f7cf7e066d0fb4e6a0b1aa154c.png" },
+        { "title": "Vue.js", "image": "https://storage.googleapis.com/turing_developers/icon/1626199422492_7899c1f7cf7e066d0fb4e6a0b1aa154c.png" },
+        { "title": "Spring Boot", "image": "https://storage.googleapis.com/turing_developers/icon/1632729310615_52f2d0f754e4e30b4f6560841f48daa4.png" },
+        { "title": "Django", "image": "https://storage.googleapis.com/turing_developers/icon/1632729310615_52f2d0f754e4e30b4f6560841f48daa4.png" },
+        { "title": "Flutter", "image": "https://storage.googleapis.com/turing_developers/icon/1626199422492_7899c1f7cf7e066d0fb4e6a0b1aa154c.png" }
+      ],
+      "databases": [
+        { "title": "MySQL", "image": "https://storage.googleapis.com/turing_developers/icon/1687513887796_%20mysql.png" },
+        { "title": "SQLite", "image": "https://storage.googleapis.com/turing_developers/icon/1687513887796_%20mysql.png" },
+        { "title": "PostgreSQL", "image": "https://storage.googleapis.com/turing_developers/icon/1687513887796_%20mysql.png" },
+        { "title": "Firebase", "image": "https://storage.googleapis.com/turing_developers/icon/1687513887796_%20mysql.png" }
+      ]
+    },   
+    "experience": {
+      "title": "Expérience",
+      "text": "Mon expérience professionnelle",
+      "items": [
+        {
+          "title": "Développeur logiciel",
+          "company": "Terinnova",
+          "text": "Développement full stack avec Angular, Next.js, Spring Boot, Flask et React Native. Intégration continue avec Docker, scripts bash et AWS.",
+          "start": "Mars 2022",
+          "current": true,
+          "end": "",
+          "image": ""
+        },
+        {
+          "title": "Stagiaire développeur logiciel",
+          "company": "Terinnova",
+          "text": "Développement frontend avec React, Angular et Next.js.",
+          "start": "Août 2021",
+          "current": false,
+          "end": "Février 2022",
+          "image": ""
+        },
+        {
+          "title": "Stagiaire en maintenance",
+          "company": "Groupe Supdeco Dakar",
+          "text": "Installations et configurations pour le parc informatique.",
+          "start": "Décembre 2020",
+          "current": false,
+          "end": "",
+          "image": "https://company-assets.showwcase.com/112599/1701400486221-logo8supdeco-1.png"
+        },
+        {
+          "title": "Stagiaire développeur logiciel",
+          "company": "DEFAR SCI",
+          "text": "Développement web full stack avec Django et jQuery.",
+          "start": "Septembre 2020",
+          "current": false,
+          "end": "Novembre 2020",
+          "image": "https://company-assets.showwcase.com/112599/1701401772750-download.png"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "Connectons-nous",
+      "form": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "company": "",
+        "message": ""
+      },
+      "nameField": "Votre nom",
+      "emailField": "Votre email",
+      "phoneField": "Votre numéro de téléphone",
+      "companyField": "Votre entreprise",
+      "messageField": "Message"
+    },
+    "footer": {
+      "copyrightText": "Copyright © Mouhamed Bakhoum 2023",
+      "links": {
+        "twitter": "https://twitter.com/MouhamedBkm",
+        "linkedin": "https://www.linkedin.com/in/mouhamed-bakhoum/",
+        "github": "https://github.com/Mouhamed-B"
+      }
+    }    
+} 
