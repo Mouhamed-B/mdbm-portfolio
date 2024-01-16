@@ -2,14 +2,16 @@ import type { Metadata } from 'next'
 import './fonts.css'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Head from 'next/head'
 import { lang, langs } from '@/utils/schema'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Mouhamed Bakhoum - Portfolio',
-  description: 'Portfolio showcasing Mouhamed Bakhoum\'s work'
+  description: 'Portfolio showcasing Mouhamed Bakhoum\'s work',
+  verification:{
+    google:'9CpinwSqIyUYUb5FUre23C_qKw7ieN0u8Q912t86xlo'
+  }
 }
 
 export default function RootLayout({
@@ -21,9 +23,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang={params.lang}>
-      <Head>
-        <meta name="google-site-verification" content="9CpinwSqIyUYUb5FUre23C_qKw7ieN0u8Q912t86xlo" />
-      </Head>
       <body className={inter.className}>
         {children}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
