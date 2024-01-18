@@ -30,16 +30,16 @@
           "description": "Site vitrine d'une entreprise fictive d'impression. Réalisé avec HTML, CSS, Bootstrap et PHP.",
           "image": "/assets/img/printpencil.png",
           "repo": "https://github.com/Mouhamed-B/Printpencil",
-          "link": ""
+          "link": "http://printpencil.42web.io/"
         },
         {
           "title": "LePapyrus",
           "icon": "fas fa-shopping-cart",
           "tags": ["HTML/CSS", "Bootstrap", "PHP", "MySQL", "cPanel"],
-          "description": "Boutique en ligne d'une entreprise fictive d'impression. Réalisée avec HTML, CSS, Bootstrap et PHP.",
-          "image": "",
+          "description": "Boutique en ligne d'une papeterie fictive. Réalisée avec HTML, CSS, Bootstrap et PHP.",
+          "image": "/assets/img/lepapyrus.png",
           "repo": "https://github.com/Mouhamed-B/Projet-Ecom",
-          "link": ""
+          "link": "http://lepapyrus.42web.io/"
         },
         {
           "title": "Hospital",
