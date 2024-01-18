@@ -46,7 +46,7 @@
           "icon": "fa-solid fa-hospital",
           "tags": ["HTML/CSS", "Bootstrap", "Javascript", "Jquery", "Python", "Django", "SQLite", "Heroku"],
           "description": "Page d'accueil et tableau de bord pour la gestion des messages et des rendez-vous, écrits avec Django et jQuery.",
-          "image": "",
+          "image": "/assets/img/hospital.png",
           "repo": "https://github.com/Mouhamed-B/hospital",
           "link": ""
         },
