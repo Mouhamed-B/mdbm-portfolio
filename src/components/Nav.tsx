@@ -1,8 +1,8 @@
-import { NavItemProps, langs } from '@/utils/schema'
+import { NavItemProps, lang, langs } from '@/utils/schema'
 import Link from 'next/link'
 import React from 'react'
 
-const Nav = ({links}:{links:NavItemProps[]}) => {
+const Nav = ({links, lang}:{links:NavItemProps[], lang:lang}) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div className="container">
@@ -16,7 +16,7 @@ const Nav = ({links}:{links:NavItemProps[]}) => {
                     {links.map((link,index) => <li key={index} className="nav-item"><a className="nav-link" href={link.link}>{link.title}</a></li>)}
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i className="fa fa-language" aria-hidden="true"></i>
+                            {lang+" "}<i className="fa fa-language" aria-hidden="true"></i>
                         </a>
                         <ul className="dropdown-menu">
                             {langs.map((lang, index) => (
