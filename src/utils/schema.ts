@@ -6,6 +6,7 @@ export type NavItemProps = {
 export type HeaderProps = {
   title: string;
   text: string;
+  resume:string
 };
 
 export type ServiceItemProps = {

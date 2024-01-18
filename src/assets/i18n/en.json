@@ -7,7 +7,8 @@
     ],
     "header":{
         "title":"Software Developer",
-        "text":"I practice problem-solving and user interface integration, employing the right tools and practices to deliver the solution you need."
+        "text":"I practice problem-solving and user interface integration, employing the right tools and practices to deliver the solution you need.",
+        "resume":"/CV-EN2.pdf"
     },
     "services":{
         "title":"Services",

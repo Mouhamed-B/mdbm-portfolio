@@ -11,7 +11,7 @@ export default function Home({ params }: { params: { lang: lang } }) {
   const content:Schema = require('@/assets/i18n/'+params.lang+'.json')
   return (
     <>
-      <Nav links={content.nav}/>
+      <Nav links={content.nav} lang={params.lang}/>
       <Header {...content.header}/>
       <Services {...content.services}/>
       <Portfolio {...content.portfolio}/>
