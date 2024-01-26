@@ -7,7 +7,7 @@
     ],
     "header": {
       "title": "Développeur logiciel",
-      "text": "Je pratique du problem-solving et l'intégration d'interfaces utilisateur, tirant parti des outils et pratiques nécessaires pour fournir la solution dont vous avez besoin.",
+      "text": "Je pratique du problem-solving et de l'intégration d'interfaces utilisateur, tirant parti des outils et pratiques nécessaires pour fournir la solution dont vous avez besoin.",
       "resume":"/CV-FR2.pdf"
     },
     "services": {
@@ -44,16 +44,16 @@
         {
           "title": "Hospital",
           "icon": "fa-solid fa-hospital",
-          "tags": ["HTML/CSS", "Bootstrap", "Javascript", "Jquery", "Python", "Django", "SQLite", "Heroku"],
+          "tags": ["HTML/CSS", "Bootstrap", "Javascript", "Jquery", "Python", "Django", "PostgreSQL"],
           "description": "Page d'accueil et tableau de bord pour la gestion des messages et des rendez-vous, écrits avec Django et jQuery.",
           "image": "/assets/img/hospital.png",
           "repo": "https://github.com/Mouhamed-B/hospital",
-          "link": ""
+          "link": "https://hospital-peach-mu.vercel.app/"
         },
         {
           "title": "Samba",
           "icon": "fa-solid fa-adversal",
-          "tags": ["HTML/CSS", "SCSS", "Bootstrap", "Javascript", "Jquery", "Python", "Django", "SQLite", "Heroku"],
+          "tags": ["HTML/CSS", "SCSS", "Bootstrap", "Javascript", "Jquery", "Python", "Django", "PostgreSQL"],
           "description": "Plateforme publicitaire à usage pour tous, écrite avec Django et jQuery.",
           "image": "",
           "repo": "https://github.com/Mouhamed-B/samba",
