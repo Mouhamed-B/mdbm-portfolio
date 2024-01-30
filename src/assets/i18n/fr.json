@@ -23,97 +23,116 @@
       "title": "Portfolio",
       "text": "Projets réalisés ou auxquels j'ai participé",
       "items": [
-        {
-          "title": "Printpencil",
-          "icon": "fa-solid fa-print",
-          "tags": ["HTML/CSS", "Bootstrap", "PHP", "cPanel"],
-          "description": "Site vitrine d'une entreprise fictive d'impression. Réalisé avec HTML, CSS, Bootstrap et PHP.",
-          "image": "/assets/img/printpencil.png",
-          "repo": "https://github.com/Mouhamed-B/Printpencil",
-          "link": "http://printpencil.42web.io/"
+        { 
+            "title": "Portfolio personnel", 
+            "icon": "fa-solid fa-home", 
+            "tags": ["HTML/CSS", "Nextjs", "Typescript", "Firebase"], 
+            "description": "Portfolio personnel. Réalisé avec Nextjs, hébergé sur Firebase", 
+            "image": "/assets/img/portfolio.png", 
+            "repo": "https://github.com/Mouhamed-B/mdbm-portfolio", 
+            "link": "https://mdbm-portfolio.web.app/"
         },
-        {
-          "title": "LePapyrus",
-          "icon": "fas fa-shopping-cart",
-          "tags": ["HTML/CSS", "Bootstrap", "PHP", "MySQL", "cPanel"],
-          "description": "Boutique en ligne d'une papeterie fictive. Réalisée avec HTML, CSS, Bootstrap et PHP.",
-          "image": "/assets/img/lepapyrus.png",
-          "repo": "https://github.com/Mouhamed-B/Projet-Ecom",
-          "link": "http://lepapyrus.42web.io/"
+        { 
+            "title": "Clone de la page d'accueil Djamo", 
+            "icon": "fa-solid fa-credit-card", 
+            "tags": ["HTML/CSS", "TailwindCSS", "Nextjs", "Typescript", "Vercel"], 
+            "description": "Clone de la page d'accueil d'une société fintech, Djamo. Réalisé avec Nextjs et TailwindCSS, Hébergé sur Vercel", 
+            "image": "/assets/img/djamo.png", 
+            "repo": "https://github.com/Mouhamed-B/djamo-landing", 
+            "link": "https://djamo-landing.vercel.app/"
         },
-        {
-          "title": "Hospital",
-          "icon": "fa-solid fa-hospital",
-          "tags": ["HTML/CSS", "Bootstrap", "Javascript", "Jquery", "Python", "Django", "PostgreSQL"],
-          "description": "Page d'accueil et tableau de bord pour la gestion des messages et des rendez-vous, écrits avec Django et jQuery.",
-          "image": "/assets/img/hospital.png",
-          "repo": "https://github.com/Mouhamed-B/hospital",
-          "link": "https://hospital-peach-mu.vercel.app/"
+        { 
+            "title": "Printpencil", 
+            "icon": "fa-solid fa-print", 
+            "tags": ["HTML/CSS", "Bootstrap", "PHP", "cPanel"], 
+            "description": "Site de démonstration d'une entreprise fictive d'impression. Réalisé avec HTML, CSS, Bootstrap et PHP", 
+            "image": "/assets/img/printpencil.png", 
+            "repo": "https://github.com/Mouhamed-B/Printpencil", 
+            "link": "http://printpencil.42web.io/"
         },
-        {
-          "title": "Samba",
-          "icon": "fa-solid fa-adversal",
-          "tags": ["HTML/CSS", "SCSS", "Bootstrap", "Javascript", "Jquery", "Python", "Django", "PostgreSQL"],
-          "description": "Plateforme publicitaire à usage pour tous, écrite avec Django et jQuery.",
-          "image": "",
-          "repo": "https://github.com/Mouhamed-B/samba",
-          "link": ""
+        { 
+            "title": "LePapyrus", 
+            "icon": "fas fa-shopping-cart", 
+            "tags": ["HTML/CSS", "Bootstrap", "PHP", "MySQL", "cPanel"], 
+            "description": "Boutique d'une entreprise fictive de fournitures de bureau. Réalisée avec HTML, CSS, Bootstrap et PHP", 
+            "image": "/assets/img/lepapyrus.png", 
+            "repo": "https://github.com/Mouhamed-B/Projet-Ecom", 
+            "link": "http://lepapyrus.42web.io/"
         },
-        {
-          "title": "Application Tiakbook",
-          "icon": "fa-solid fa-truck-fast",
-          "tags": ["Dart", "Flutter", "Firebase"],
-          "description": "Application mobile pour les coursiers indépendants afin d'exposer leurs services et permettre aux utilisateurs d'en réserver",
-          "image": "",
-          "repo": "https://github.com/Mouhamed-B/tiakbookapp",
-          "link": ""
+        { 
+            "title": "Hôpital", 
+            "icon": "fa-solid fa-hospital", 
+            "tags": ["HTML/CSS", "Bootstrap", "Javascript", "Jquery", "Python", "Django", "PostgreSQL"], 
+            "description": "Page d'accueil et tableau de bord pour la gestion des messages et des rendez-vous, écrits avec Django et Jquery", 
+            "image": "/assets/img/hospital.png", 
+            "repo": "https://github.com/Mouhamed-B/hospital", 
+            "link": "https://hospital-peach-mu.vercel.app/"
         },
-        {
-          "title": "Actualités et événements",
-          "icon": "fa-solid fa-newspaper",
-          "tags": ["HTML/CSS", "Javascript", "Typescript", "Angular"],
-          "description": "Petit blog pour la liste des événements et des actualités, écrit avec Angular.",
-          "image": "",
-          "repo": "https://github.com/Mouhamed-B/events-news",
-          "link": ""
+        { 
+            "title": "Samba", 
+            "icon": "fa-solid fa-adversal", 
+            "tags": ["HTML/CSS", "SCSS", "Bootstrap", "Javascript", "Jquery", "Python", "Django", "PostgreSQL"], 
+            "description": "Plateforme publicitaire polyvalente pour tous, écrite avec Django et Jquery", 
+            "image": "", 
+            "repo": "https://github.com/Mouhamed-B/samba", 
+            "link": ""
         },
-        {
-          "title": "Application de voyage",
-          "icon": "fa-solid fa-plane",
-          "tags": ["HTML/CSS", "Javascript", "Vue.js"],
-          "description": "Application de voyage pour présenter des destinations avec des images, écrite avec Vue.js 3.",
-          "image": "",
-          "repo": "https://github.com/Mouhamed-B/travel-app",
-          "link": ""
+        { 
+            "title": "Tiakbook Web", 
+            "icon": "fa-solid fa-truck-fast", 
+            "tags": ["HTML/CSS", "Javascript", "React.js", "MaterialUI", "Firebase"], 
+            "description": "Projet de livraison Web avec React et Material UI", 
+            "image": "", 
+            "repo": "https://github.com/Mouhamed-B/tiakbook-web", 
+            "link": ""
         },
-        {
-          "title": "API de gestion des stocks",
-          "icon": "fa-solid fa-boxes-stacked",
-          "tags": ["Java", "Spring Boot", "PostgreSQL"],
-          "description": "API de gestion des stocks écrite avec Spring Boot.",
-          "image": "",
-          "repo": "https://github.com/Mouhamed-B/stock-manager",
-          "link": ""
+        { 
+            "title": "Actualités sur les événements", 
+            "icon": "fa-solid fa-newspaper", 
+            "tags": ["HTML/CSS", "Javascript", "Typescript", "Angular"], 
+            "description": "Petit blog pour la liste des événements et des actualités, écrit avec Angular", 
+            "image": "/assets/img/events-news.png", 
+            "repo": "https://github.com/Mouhamed-B/events-news", 
+            "link": ""
         },
-        {
-          "title": "Interface web de gestion des stocks",
-          "icon": "fa-solid fa-warehouse",
-          "tags": ["HTML/CSS", "Bootstrap", "Javascript", "Vue.js"],
-          "description": "Application client web du gestionnaire de stocks écrite avec Vue.js.",
-          "image": "",
-          "repo": "https://github.com/Mouhamed-B/stock-manager-web",
-          "link": ""
+        { 
+            "title": "Application Tiakbook", 
+            "icon": "fa-solid fa-truck-fast", 
+            "tags": ["Dart", "Flutter", "Firebase"], 
+            "description": "Application mobile pour les coursiers indépendants afin de présenter leurs services et permettre aux utilisateurs de réserver l'un d'entre eux", 
+            "image": "", 
+            "repo": "https://github.com/Mouhamed-B/tiakbookapp", 
+            "link": ""
         },
-        {
-          "title": "Site web Tiakbook",
-          "icon": "fa-solid fa-truck-fast",
-          "tags": ["HTML/CSS", "Javascript", "React.js", "MaterialUI", "Firebase"],
-          "description": "Projet de livraison web avec React et Material UI.",
-          "image": "",
-          "repo": "https://github.com/Mouhamed-B/tiakbook-web",
-          "link": ""
+        { 
+            "title": "Application de voyage", 
+            "icon": "fa-solid fa-plane", 
+            "tags": ["HTML/CSS", "Javascript", "Vue.js"], 
+            "description": "Application de voyage pour présenter des destinations avec des images, écrite avec Vuejs3", 
+            "image": "", 
+            "repo": "https://github.com/Mouhamed-B/travel-app", 
+            "link": ""
+        },
+        { 
+            "title": "API de gestion des stocks", 
+            "icon": "fa-solid fa-boxes-stacked", 
+            "tags": ["Java", "Spring Boot", "PostgreSQL"], 
+            "description": "API de gestion des stocks écrite avec Spring Boot", 
+            "image": "", 
+            "repo": "https://github.com/Mouhamed-B/stock-manager", 
+            "link": ""
+        },
+        { 
+            "title": "Application Web de gestion des stocks", 
+            "icon": "fa-solid fa-warehouse", 
+            "tags": ["HTML/CSS", "Bootstrap", "Javascript", "Vue.js"], 
+            "description": "Client Web de l'application de gestion des stocks écrite avec Vuejs", 
+            "image": "", 
+            "repo": "https://github.com/Mouhamed-B/stock-manager-web", 
+            "link": ""
         }
-      ]
+    ]
+    
       
     },
     "skills": {
