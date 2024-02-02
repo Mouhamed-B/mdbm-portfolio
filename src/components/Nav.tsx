@@ -6,7 +6,7 @@ const Nav = ({links, lang}:{links:NavItemProps[], lang:lang}) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div className="container">
-            <a className="navbar-brand" href="#page-top"><img src="/assets/img/logo.png" height={64} alt="'Mouhamed Bakhoum', 'Md-Bm', 'developer', 'portfolio'" /></a>
+            <a className="navbar-brand" href="#page-top"><img src="/assets/img/logo.webp" height={64} alt="'Mouhamed Bakhoum', 'Md-Bm', 'developer', 'portfolio'" /></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <span className="fas fa-bars ms-1"></span>

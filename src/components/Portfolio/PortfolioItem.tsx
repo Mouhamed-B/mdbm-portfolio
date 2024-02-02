@@ -16,7 +16,7 @@ const PortfolioItem = (props:PortfolioItemProps) => {
                     {props.description}
                     </div>
                     
-                    <img className="img-fluid object-fit-contain" src={props.image.length > 0 ? props.image : 'assets/img/portfolio/'+getIndex()+'.jpg'} alt={'Mouhamed Bakhoum '+props.title} height={200}/>
+                    <img className="img-fluid object-fit-contain" src={props.image.length > 0 ? props.image : 'assets/img/portfolio/'+getIndex()+'.webp'} alt={'Mouhamed Bakhoum '+props.title} height={200}/>
                 </div>
                 <div className="row gap-2 mt-1">
                     {props.link.length>0 && <a href={props.link} className='text-primary text-lg-start w-auto'><div className="d-flex gap-2"><i className="fa-solid fa-link fa-lg"></i><span>Live</span></div></a> }
