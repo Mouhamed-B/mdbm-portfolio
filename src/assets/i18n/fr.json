@@ -23,12 +23,39 @@
       "title": "Portfolio",
       "text": "Projets réalisés ou auxquels j'ai participé",
       "items": [
+        {
+          "title": "Plateforme Open Data",
+          "icon": "fa-solid fa-home",
+          "tags": ["HTML/CSS", "Bootstrap", "Flask", "Ckan"],
+          "description": "Plateforme Open Data conçue pour centraliser des datasets de divers domaines et organisations.",
+          "image": "/assets/img/opendata.webp",
+          "repo": "",
+          "link": ""
+        },
+        {
+          "title": "Plateforme de Télémédecine",
+          "icon": "fa-solid fa-home",
+          "tags": ["HTML/CSS", "Angular", "Tailwind"],
+          "description": "Plateforme de télémédecine fournissant des services de santé en ligne. Construite avec 4 applications Angular dans une architecture microfrontend.",
+          "image": "/assets/img/fanel.webp",
+          "repo": "",
+          "link": ""
+        },
+        {
+          "title": "Système de Gestion de Flotte",
+          "icon": "fa-solid fa-home",
+          "tags": ["HTML/CSS", "Nextjs", "Nodejs", "tRPC", "Typescript", "Tailwind"],
+          "description": "Système de gestion de flotte comprenant un formulaire pour les saisies qu'un tableau de bord pour la gestion.",
+          "image": "/assets/img/fleet.webp",
+          "repo": "",
+          "link": ""
+        },
         { 
             "title": "Portfolio personnel", 
             "icon": "fa-solid fa-home", 
             "tags": ["HTML/CSS", "Nextjs", "Typescript", "Firebase"], 
             "description": "Portfolio personnel. Réalisé avec Nextjs, hébergé sur Firebase", 
-            "image": "/assets/img/portfolio.png", 
+            "image": "/assets/img/portfolio.webp", 
             "repo": "https://github.com/Mouhamed-B/mdbm-portfolio", 
             "link": "https://mdbm-portfolio.web.app/"
         },
@@ -37,25 +64,16 @@
             "icon": "fa-solid fa-credit-card", 
             "tags": ["HTML/CSS", "TailwindCSS", "Nextjs", "Typescript", "Vercel"], 
             "description": "Clone de la page d'accueil d'une société fintech, Djamo. Réalisé avec Nextjs et TailwindCSS, Hébergé sur Vercel", 
-            "image": "/assets/img/djamo.png", 
+            "image": "/assets/img/djamo.webp", 
             "repo": "https://github.com/Mouhamed-B/djamo-landing", 
             "link": "https://djamo-landing.vercel.app/"
-        },
-        { 
-            "title": "Printpencil", 
-            "icon": "fa-solid fa-print", 
-            "tags": ["HTML/CSS", "Bootstrap", "PHP", "cPanel"], 
-            "description": "Site de démonstration d'une entreprise fictive d'impression. Réalisé avec HTML, CSS, Bootstrap et PHP", 
-            "image": "/assets/img/printpencil.png", 
-            "repo": "https://github.com/Mouhamed-B/Printpencil", 
-            "link": "http://printpencil.42web.io/"
         },
         { 
             "title": "LePapyrus", 
             "icon": "fas fa-shopping-cart", 
             "tags": ["HTML/CSS", "Bootstrap", "PHP", "MySQL", "cPanel"], 
             "description": "Boutique d'une entreprise fictive de fournitures de bureau. Réalisée avec HTML, CSS, Bootstrap et PHP", 
-            "image": "/assets/img/lepapyrus.png", 
+            "image": "/assets/img/lepapyrus.webp", 
             "repo": "https://github.com/Mouhamed-B/Projet-Ecom", 
             "link": "http://lepapyrus.42web.io/"
         },
@@ -64,7 +82,7 @@
             "icon": "fa-solid fa-hospital", 
             "tags": ["HTML/CSS", "Bootstrap", "Javascript", "Jquery", "Python", "Django", "PostgreSQL"], 
             "description": "Page d'accueil et tableau de bord pour la gestion des messages et des rendez-vous, écrits avec Django et Jquery", 
-            "image": "/assets/img/hospital.png", 
+            "image": "/assets/img/hospital.webp", 
             "repo": "https://github.com/Mouhamed-B/hospital", 
             "link": "https://hospital-peach-mu.vercel.app/"
         },
@@ -76,6 +94,15 @@
             "image": "", 
             "repo": "https://github.com/Mouhamed-B/samba", 
             "link": ""
+        },
+        { 
+            "title": "Printpencil", 
+            "icon": "fa-solid fa-print", 
+            "tags": ["HTML/CSS", "Bootstrap", "PHP", "cPanel"], 
+            "description": "Site de démonstration d'une entreprise fictive d'impression. Réalisé avec HTML, CSS, Bootstrap et PHP", 
+            "image": "/assets/img/printpencil.webp", 
+            "repo": "https://github.com/Mouhamed-B/Printpencil", 
+            "link": "http://printpencil.42web.io/"
         },
         { 
             "title": "Tiakbook Web", 
@@ -91,7 +118,7 @@
             "icon": "fa-solid fa-newspaper", 
             "tags": ["HTML/CSS", "Javascript", "Typescript", "Angular"], 
             "description": "Petit blog pour la liste des événements et des actualités, écrit avec Angular", 
-            "image": "/assets/img/events-news.png", 
+            "image": "/assets/img/events-news.webp", 
             "repo": "https://github.com/Mouhamed-B/events-news", 
             "link": ""
         },
@@ -109,7 +136,7 @@
             "icon": "fa-solid fa-plane", 
             "tags": ["HTML/CSS", "Javascript", "Vue.js"], 
             "description": "Application de voyage pour présenter des destinations avec des images, écrite avec Vuejs3", 
-            "image": "", 
+            "image": "/assets/img/travel-app.webp", 
             "repo": "https://github.com/Mouhamed-B/travel-app", 
             "link": ""
         },
@@ -172,7 +199,7 @@
           "start": "Mars 2022",
           "current": true,
           "end": "",
-          "image": ""
+          "image": "https://media.licdn.com/dms/image/C4D0BAQGqN7Bd8M1PMA/company-logo_200_200/0/1630530857707?e=1713398400&v=beta&t=ybBpOh4valsvrCun7jiCDCYf2f3x1FI470YP48XGNvA"
         },
         {
           "title": "Stagiaire développeur logiciel",
@@ -181,7 +208,7 @@
           "start": "Août 2021",
           "current": false,
           "end": "Février 2022",
-          "image": ""
+          "image": "https://media.licdn.com/dms/image/C4D0BAQGqN7Bd8M1PMA/company-logo_200_200/0/1630530857707?e=1713398400&v=beta&t=ybBpOh4valsvrCun7jiCDCYf2f3x1FI470YP48XGNvA"
         },
         {
           "title": "Stagiaire en maintenance",
