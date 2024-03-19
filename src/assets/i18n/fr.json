@@ -24,13 +24,13 @@
       "text": "Projets réalisés ou auxquels j'ai participé",
       "items": [
         {
-          "title": "Plateforme Open Data",
+          "title": "Plateforme Open Data Comores",
           "icon": "fa-solid fa-home",
           "tags": ["HTML/CSS", "Bootstrap", "Flask", "Ckan"],
           "description": "Plateforme Open Data conçue pour centraliser des datasets de divers domaines et organisations.",
           "image": "/assets/img/opendata.webp",
           "repo": "",
-          "link": ""
+          "link": "https://opendata-comores.org/"
         },
         {
           "title": "Plateforme de Télémédecine",
@@ -114,7 +114,7 @@
             "link": ""
         },
         { 
-            "title": "Actualités sur les événements", 
+            "title": "Microblog d'actualités et événements", 
             "icon": "fa-solid fa-newspaper", 
             "tags": ["HTML/CSS", "Javascript", "Typescript", "Angular"], 
             "description": "Petit blog pour la liste des événements et des actualités, écrit avec Angular", 
@@ -192,6 +192,15 @@
       "title": "Expérience",
       "text": "Mon expérience professionnelle",
       "items": [
+        {
+          "title": "Développeur logiciel",
+          "company": "Freelance",
+          "text": "Démarche de potentiels clients et d'agences IT pour des services de développement full stack avec Django et Laravel, Jquery, Nextjs et Angular",
+          "start": "February 2024",
+          "current": true,
+          "end": "",
+          "image": "/assets/img/logo.webp"
+        },
         {
           "title": "Développeur logiciel",
           "company": "Terinnova",
