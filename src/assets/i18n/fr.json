@@ -68,6 +68,19 @@
             "repo": "https://github.com/Mouhamed-B/djamo-landing", 
             "link": "https://djamo-landing.vercel.app/"
         },
+        {
+          "title": "HR Onboarding chatbot",
+          "tags": [
+            "Python",
+            "Rasa Open source",
+            "Spacy NLP",
+            "NLU"
+          ],
+          "description": "autonomous onboarding experience for a company new employees",
+          "image": "/assets/img/chatbot.svg",
+          "repo": "https://github.com/Mouhamed-B/onboarding-chatbot",
+          "link": ""
+        },
         { 
             "title": "LePapyrus", 
             "icon": "fas fa-shopping-cart", 
