@@ -8,7 +8,7 @@
     "header": {
       "title": "Développeur logiciel",
       "text": "Je pratique du problem-solving et de l'intégration d'interfaces utilisateur, tirant parti des outils et pratiques nécessaires pour fournir la solution dont vous avez besoin.",
-      "resume":"/CV-FR2.pdf"
+      "resume":"/CV-EN-2p.pdf"
     },
     "services": {
       "title": "Services",
@@ -23,6 +23,15 @@
       "title": "Portfolio",
       "text": "Projets réalisés ou auxquels j'ai participé",
       "items": [
+        {
+          "title": "Landing page Fairshield - Solution Anti-Cheat",
+          "icon": "fa-solid fa-home",
+          "tags": ["HTML/CSS", "Nextjs", "Tailwind"],
+          "description": "Landing page pour une solution anti-triche pour les jeux vidéo. Réalisée avec Nextjs et TailwindCSS.",
+          "image": "/assets/img/fairshield.png",
+          "repo": "",
+          "link": "https://fairshield.io/"
+        },
         {
           "title": "Plateforme Open Data Comores",
           "icon": "fa-solid fa-home",

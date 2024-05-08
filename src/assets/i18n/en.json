@@ -8,7 +8,7 @@
     "header":{
         "title":"Software Developer",
         "text":"I practice problem-solving and user interface integration, employing the right tools and practices to deliver the solution you need.",
-        "resume":"/CV-EN2.pdf"
+        "resume":"/CV-EN-2p.pdf"
     },
     "services":{
         "title":"Services",
@@ -23,6 +23,15 @@
         "title":"Portfolio",
         "text":"Projects I made or took part in",
         "items":[
+            {
+                "title": "Fairshield - Solution Anti-Cheat",
+                "icon": "fa-solid fa-home",
+                "tags": ["HTML/CSS", "Nextjs", "Tailwind"],
+                "description": "Landing page for an anti cheat solution. Made with Nextjs and TailwindCSS",
+                "image": "/assets/img/fairshield.png",
+                "repo": "",
+                "link": "https://fairshield.io/"
+            },
             { "title":"Comoros Open Data Platform", "icon":"fa-solid fa-home", "tags":["HTML/CSS", "Bootstrap", "Flask", "Ckan"], "description":"Open Data platform set to centralize datasets of various fields and organisations", "image":"/assets/img/opendata.webp", "repo":"", "link":"https://opendata-comores.org/"},
             { "title":"Telemedecine Platform", "icon":"fa-solid fa-home", "tags":["HTML/CSS", "Angular", "Tailwind"], "description":"Telemedicine platform providing online healthcare services. Built with 4 angular apps in a microfrontend architecture", "image":"/assets/img/fanel.webp", "repo":"", "link":""},
             { "title":"Fleet Management System", "icon":"fa-solid fa-home", "tags":["HTML/CSS", "Nextjs", "Nodejs", "tRPC", "Typescript", "Tailwind"], "description":"Fleet Management System including a form for entries and a dashboard for management", "image":"/assets/img/fleet.webp", "repo":"", "link":""},
