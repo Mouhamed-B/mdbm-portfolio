@@ -12,7 +12,7 @@ const PortfolioItem = (props:PortfolioItemProps) => {
             <div className="portfolio-caption p-4 rounded-5 shadow-sm w-100 h-100 d-flex flex-column justify-content-between gap-3">
                 <div className="portfolio-caption-heading text-secondary small">{props.title}</div>
                 <div>
-                    <div className="text-muted text-start mb-2" style={{height:'5em'}}>
+                    <div className="text-muted text-start mb-4" style={{height:'5em'}}>
                     {props.description}
                     </div>
                     
