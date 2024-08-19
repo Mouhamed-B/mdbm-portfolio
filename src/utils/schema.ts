@@ -74,7 +74,11 @@ export type ContactProps = {
   emailField: string;
   phoneField: string;
   companyField: string;
+  subjectField:string;
   messageField: string;
+  buttonText: string;
+  sucessMessage:string;
+  failMessage:string;
 };
 
 export type FooterProps = {
