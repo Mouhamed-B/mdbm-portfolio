@@ -20,7 +20,7 @@ const Nav = ({links, lang}:{links:NavItemProps[], lang:lang}) => {
                         </a>
                         <ul className="dropdown-menu">
                             {langs.map((lang, index) => (
-                                <li key={index} ><Link className='dropdown-item' href={'/'+lang}>{lang}</Link></li>
+                                <li key={index} className='dropdown-item'><Link href={'/'+lang}>{lang}</Link></li>
                             ))}
                         </ul>
                     </li>            
