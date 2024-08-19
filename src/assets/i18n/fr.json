@@ -248,7 +248,7 @@
           "start": "Mars 2022",
           "current": true,
           "end": "",
-          "image": "https://media.licdn.com/dms/image/C4D0BAQGqN7Bd8M1PMA/company-logo_200_200/0/1630530857707?e=1713398400&v=beta&t=ybBpOh4valsvrCun7jiCDCYf2f3x1FI470YP48XGNvA"
+          "image": "/assets/img/terinnova.jpeg"
         },
         {
           "title": "Stagiaire développeur logiciel",
@@ -257,7 +257,7 @@
           "start": "Août 2021",
           "current": false,
           "end": "Février 2022",
-          "image": "https://media.licdn.com/dms/image/C4D0BAQGqN7Bd8M1PMA/company-logo_200_200/0/1630530857707?e=1713398400&v=beta&t=ybBpOh4valsvrCun7jiCDCYf2f3x1FI470YP48XGNvA"
+          "image": "/assets/img/terinnova.jpeg"
         },
         {
           "title": "Stagiaire en maintenance",
@@ -266,7 +266,7 @@
           "start": "Décembre 2020",
           "current": false,
           "end": "",
-          "image": "https://company-assets.showwcase.com/112599/1701400486221-logo8supdeco-1.png"
+          "image": "/assets/img/logo-supdeco.png"
         },
         {
           "title": "Stagiaire développeur logiciel",
@@ -275,7 +275,7 @@
           "start": "Septembre 2020",
           "current": false,
           "end": "Novembre 2020",
-          "image": "https://company-assets.showwcase.com/112599/1701401772750-download.png"
+          "image": "/assets/img/defar-sci.png"
         }
       ]
     },
@@ -286,6 +286,7 @@
         "name": "",
         "email": "",
         "phone": "",
+        "subject":"",
         "company": "",
         "message": ""
       },
@@ -293,14 +294,18 @@
       "emailField": "Votre email",
       "phoneField": "Votre numéro de téléphone",
       "companyField": "Votre entreprise",
-      "messageField": "Message"
+      "subjectField": "Objet",
+      "messageField": "Message",
+      "buttonText":"Envoyer",
+      "sucessMessage":"Message envoyé avec succès",
+      "failMessage":"Echec d'envoi du message"
     },
     "footer": {
-      "copyrightText": "Copyright © Mouhamed Bakhoum 2023",
+      "copyrightText": "Copyright © Mouhamed Bakhoum 2024",
       "links":[
-        {"title":"twitter", "icon":"fab fa-twitter","link":"https://twitter.com/MouhamedBkm"}, 
-        {"title":"linkedin", "icon":"fab fa-facebook-f","link":"https://www.linkedin.com/in/mouhamed-bakhoum/"}, 
-        {"title":"github", "icon":"fab fa-linkedin-in","link":"https://github.com/Mouhamed-B"}
+        {"title":"github", "icon":"fab fa-github","link":"https://github.com/Mouhamed-B"},
+        {"title":"linkedin", "icon":"fab fa-linkedin-in","link":"https://www.linkedin.com/in/mouhamed-bakhoum/"},
+        {"title":"twitter", "icon":"fab fa-twitter","link":"https://twitter.com/MouhamedBkm"}
       ]
     }    
 } 

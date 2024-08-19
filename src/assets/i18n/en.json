@@ -98,10 +98,10 @@
         "text":"My professional experience",
         "items":[
             { "title":"Software Developer", "company":"Freelance","text":"Outreaching potential clients and working with freelance agencies for full stack development services with MySQL and Laravel, Jquery, Nextjs and Angular", "start":"February 2024", "current":true, "end":"", "image":"/assets/img/logo.webp"},
-            { "title":"Software Developer", "company":"Terinnova","text":"Full stack development with angular, nextjs, springboot, flask and react native. CI with docker, bash scripts and aws", "start":"March 2022", "current":false, "end":"January 2024", "image":"https://media.licdn.com/dms/image/C4D0BAQGqN7Bd8M1PMA/company-logo_200_200/0/1630530857707?e=1713398400&v=beta&t=ybBpOh4valsvrCun7jiCDCYf2f3x1FI470YP48XGNvA"},
-            { "title":"Software Developer Intern", "company":"Terinnova","text":"Frontend development with React, Angular and Nextjs", "start":"August 2021", "current":false,"end":"February 2022", "image":"https://media.licdn.com/dms/image/C4D0BAQGqN7Bd8M1PMA/company-logo_200_200/0/1630530857707?e=1713398400&v=beta&t=ybBpOh4valsvrCun7jiCDCYf2f3x1FI470YP48XGNvA"},
-            { "title":"Maintenance Intern", "company":"Groupe Supdeco Dakar","text":"Installations and configurations for the computer park", "start":"December 2020", "current":false,"end":"", "image":"https://company-assets.showwcase.com/112599/1701400486221-logo8supdeco-1.png"},
-            { "title":"Software Developer Intern", "company":"DEFAR SCI", "text":"Full stack web development with django and jquery", "start":"September 2020", "current":false,"end":"November 2020", "image":"https://company-assets.showwcase.com/112599/1701401772750-download.png"}
+            { "title":"Software Developer", "company":"Terinnova","text":"Full stack development with angular, nextjs, springboot, flask and react native. CI with docker, bash scripts and aws", "start":"March 2022", "current":false, "end":"January 2024", "image":"/assets/img/terinnova.jpeg"},
+            { "title":"Software Developer Intern", "company":"Terinnova","text":"Frontend development with React, Angular and Nextjs", "start":"August 2021", "current":false,"end":"February 2022", "image":"/assets/img/terinnova.jpeg"},
+            { "title":"Maintenance Intern", "company":"Groupe Supdeco Dakar","text":"Installations and configurations for the computer park", "start":"December 2020", "current":false,"end":"", "image":"/assets/img/logo-supdeco.png"},
+            { "title":"Software Developer Intern", "company":"DEFAR SCI", "text":"Full stack web development with django and jquery", "start":"September 2020", "current":false,"end":"November 2020", "image":"/assets/img/defar-sci.png"}
         ]
     },
     "contact":{
@@ -112,20 +112,25 @@
             "email":"",
             "phone":"",
             "company":"",
+            "subject":"",
             "message":""
         },
         "nameField":"Your name",
         "emailField":"Your email",
         "phoneField":"Your phone number",
         "companyField":"Your company",
-        "messageField":"Message"
+        "subjectField": "Subject",
+        "messageField":"Message",
+        "buttonText":"Send",
+        "sucessMessage":"Message delivered sucessfully",
+        "failMessage":"Failed to deliver message"
     },
     "footer":{
-        "copyrightText":"Copyright © Mouhamed Bakhoum 2023",
+        "copyrightText":"Copyright © Mouhamed Bakhoum 2024",
         "links":[
-            {"title":"twitter", "icon":"fab fa-twitter","link":"https://twitter.com/MouhamedBkm"}, 
-            {"title":"linkedin", "icon":"fab fa-facebook-f","link":"https://www.linkedin.com/in/mouhamed-bakhoum/"}, 
-            {"title":"github", "icon":"fab fa-linkedin-in","link":"https://github.com/Mouhamed-B"}
+            {"title":"github", "icon":"fab fa-github","link":"https://github.com/Mouhamed-B"},
+            {"title":"linkedin", "icon":"fab fa-linkedin-in","link":"https://www.linkedin.com/in/mouhamed-bakhoum/"},
+            {"title":"twitter", "icon":"fab fa-twitter","link":"https://twitter.com/MouhamedBkm"}
         ]
     }
 }
