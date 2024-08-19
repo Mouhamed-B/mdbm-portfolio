@@ -24,6 +24,24 @@
       "text": "Projets réalisés ou auxquels j'ai participé",
       "items": [
         {
+          "title": "Ichiraku Ramen",
+          "icon": "fa-solid fa-home",
+          "tags": ["HTML/CSS", "Nextjs", "Tailwind"],
+          "description": "Landing page d'un restaurant japonais. Made with Nextjs and TailwindCSS",
+          "image": "/assets/img/ichiraku.png",
+          "repo": "",
+          "link": "https://ichiraku-landing.vercel.app/"
+      },
+      {
+          "title": "Worlds Fever",
+          "icon": "fa-solid fa-home",
+          "tags": ["HTML/CSS", "Nextjs", "Tailwind"],
+          "description": "Landing page pour une build team minecraft. Réalisée avec Nextjs et TailwindCSS.",
+          "image": "/assets/img/fever.png",
+          "repo": "",
+          "link": "https://worlds-fever.vercel.app/"
+      },
+        {
           "title": "Landing page Fairshield - Solution Anti-Cheat",
           "icon": "fa-solid fa-home",
           "tags": ["HTML/CSS", "Nextjs", "Tailwind"],
