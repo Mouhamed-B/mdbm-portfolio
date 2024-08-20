@@ -4,8 +4,7 @@ import PortfolioItem from './PortfolioItem'
 import ToggleCollapseButton from '../Buttons/ToggleCollapseButton'
 
 const Portfolio = (props:PortfolioProps) => {
-    const listTop = props.items.slice(0,6)
-    const remaining = props.items.slice(6)
+    const listTop = props.items
     return (
         <section className="page-section bg-light py-5" id="portfolio">
             <div className="container">
@@ -20,7 +19,7 @@ const Portfolio = (props:PortfolioProps) => {
                         </div>
                     ))}
                 </div>
-                <div className="collapse mb-4" id="collapseExample">
+                {/* <div className="collapse mb-4" id="collapseExample">
                     <div className="row">
                         {remaining.map((item, index) => (
                             <div className="col-lg-4 col-sm-6 mb-4" key={index}>
@@ -29,7 +28,7 @@ const Portfolio = (props:PortfolioProps) => {
                         ))}
                     </div>
                 </div>
-                <ToggleCollapseButton target='collapseExample'/>
+                <ToggleCollapseButton target='collapseExample'/> */}
             </div>
         </section>
   )
