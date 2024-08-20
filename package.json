@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/third-parties": "^14.0.4",
+    "@next/third-parties": "^14.2.5",
     "next": "^14.2.5",
     "portfolio": "file:",
     "react": "^18",
