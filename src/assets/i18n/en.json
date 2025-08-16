@@ -1,136 +1,352 @@
 {
-    "nav":[
-        {"title":"Services","link":"#services"},
-        {"title":"Portfolio","link":"#portfolio"},
-        {"title":"Experience","link":"#experience"},
-        {"title":"Contact","link":"#contact"}
+    "nav": [
+        {
+            "title": "Services",
+            "link": "#services"
+        },
+        {
+            "title": "Portfolio",
+            "link": "#portfolio"
+        },
+        {
+            "title": "Experience",
+            "link": "#experience"
+        },
+        {
+            "title": "Contact",
+            "link": "#contact"
+        }
     ],
-    "header":{
-        "title":"Software Developer",
-        "text":"I practice problem-solving and user interface integration, employing the right tools and practices to deliver the solution you need.",
-        "resume":"/CV-EN-2p.pdf"
+    "header": {
+        "title": "Software Developer",
+        "text": "I practice problem-solving and user interface integration, employing the right tools and practices to deliver the solution you need.",
+        "resume": "/CV-EN-2p.pdf"
     },
-    "services":{
-        "title":"Services",
-        "text":"What my work is about",
-        "items":[
-            { "title":"Web Development", "text":"","image":"/assets/img/web-dev.svg" },
-            { "title":"Mobile Development", "text":"","image":"/assets/img/mobile-dev.svg" },
-            { "title":"Search Engine Optimization", "text":"","image":"/assets/img/seo.svg" }
+    "services": {
+        "title": "Services",
+        "text": "What my work is about",
+        "items": [
+            {
+                "title": "Web Development",
+                "text": "",
+                "image": "/assets/img/web-dev.svg"
+            },
+            {
+                "title": "Mobile Development",
+                "text": "",
+                "image": "/assets/img/mobile-dev.svg"
+            },
+            {
+                "title": "SEO",
+                "text": "",
+                "image": "/assets/img/seo.svg"
+            },
+            {
+                "title": "Cloud Platforms",
+                "text": "",
+                "image": "/assets/img/server.svg"
+            }
         ]
     },
-    "portfolio":{
-        "title":"Portfolio",
-        "text":"Projects I made or took part in",
-        "items":[
+    "portfolio": {
+        "title": "Portfolio",
+        "text": "Projects I made or took part in",
+        "items": [
+            {
+                "title": "MSNAS - Mutual of Artisans",
+                "icon": "fa-solid fa-home",
+                "tags": [
+                    "PHP",
+                    "TailwindCSS",
+                    "Laravel"
+                ],
+                "description": "Website of Senegal national social mutual of artisans",
+                "image": "/assets/img/portfolio/msnas.jpg",
+                "repo": "",
+                "link": "https://msnas-sn.org/"
+            },
             {
                 "title": "Ichiraku Ramen",
                 "icon": "fa-solid fa-home",
-                "tags": ["HTML/CSS", "Nextjs", "Tailwind"],
+                "tags": [
+                    "HTML/CSS",
+                    "Nextjs",
+                    "Tailwind"
+                ],
                 "description": "Landing page for a japanese restaurant. Made with Nextjs and TailwindCSS",
                 "image": "/assets/img/ichiraku.png",
                 "repo": "",
                 "link": "https://ichiraku-landing.vercel.app/"
             },
             {
-                "title": "Worlds Fever",
-                "icon": "fa-solid fa-home",
-                "tags": ["HTML/CSS", "Nextjs", "Tailwind"],
-                "description": "Landing page for a minecraft build team. Made with Nextjs and TailwindCSS",
-                "image": "/assets/img/fever.png",
-                "repo": "",
-                "link": "https://worlds-fever.vercel.app/"
-            },
-            {
                 "title": "Fairshield - Solution Anti-Cheat",
                 "icon": "fa-solid fa-home",
-                "tags": ["HTML/CSS", "Nextjs", "Tailwind"],
+                "tags": [
+                    "HTML/CSS",
+                    "Nextjs",
+                    "Tailwind"
+                ],
                 "description": "Landing page for an anti cheat solution. Made with Nextjs and TailwindCSS",
                 "image": "/assets/img/fairshield.png",
                 "repo": "",
                 "link": "https://fairshield.io/"
             },
-            { "title":"Comoros Open Data Platform", "icon":"fa-solid fa-home", "tags":["HTML/CSS", "Bootstrap", "Flask", "Ckan"], "description":"Open Data platform set to centralize datasets of various fields and organisations", "image":"/assets/img/opendata.webp", "repo":"", "link":"https://opendata-comores.org/"},
-            { "title":"Telemedecine Platform", "icon":"fa-solid fa-home", "tags":["HTML/CSS", "Angular", "Tailwind"], "description":"Telemedicine platform providing online healthcare services. Built with 4 angular apps in a microfrontend architecture", "image":"/assets/img/fanel.webp", "repo":"", "link":""},
-            { "title":"Fleet Management System", "icon":"fa-solid fa-home", "tags":["HTML/CSS", "Nextjs", "Nodejs", "tRPC", "Typescript", "Tailwind"], "description":"Fleet Management System including a form for entries and a dashboard for management", "image":"/assets/img/fleet.webp", "repo":"", "link":""},
-            { "title":"Personal portfolio", "icon":"fa-solid fa-home", "tags":["HTML/CSS", "Nextjs", "Typescript", "Firebase"], "description":"Personal portfolio. Made with Nextjs, hosted on firebase", "image":"/assets/img/portfolio.webp", "repo":"https://github.com/Mouhamed-B/mdbm-portfolio", "link":"https://mdbm-portfolio.web.app/"},
-            { "title":"Djamo landing clone", "icon":"fa-solid fa-credit-card", "tags":["HTML/CSS", "TailwindCSS","Nextjs", "Typescript", "Vercel"], "description":"Landing page clone of a fintech company, Djamo. Made with Nextjs and TailwindCSS", "image":"/assets/img/djamo.webp", "repo":"https://github.com/Mouhamed-B/djamo-landing", "link":"https://djamo-landing.vercel.app/"},
-            { "title":"HR Onboarding chatbot", "tags":["Python", "Rasa Open source", "Spacy NLP", "NLU"], "description":"autonomous onboarding experience for a company new employees", "image":"/assets/img/chatbot.svg", "repo":"https://github.com/Mouhamed-B/onboarding-chatbot", "link":""},
-            { "title":"LePapyrus", "icon":"fas fa-shopping-cart", "tags":["HTML/CSS", "Bootstrap","PHP", "MySQL", "cPanel"], "description":"Storefront of A fictitious stationery company. Made with HTML, CSS, Bootstrap and PHP", "image":"/assets/img/lepapyrus.webp", "repo":"https://github.com/Mouhamed-B/Projet-Ecom", "link":"http://lepapyrus.42web.io/" },
-            { "title":"Hospital", "icon":"fa-solid fa-hospital", "tags":["HTML/CSS", "Bootstrap","Javascript", "Jquery", "Python", "Django", "PostgreSQL"], "description":"Landing page and dashboard for messages and appointments managements, written with django and jquery", "image":"/assets/img/hospital.webp", "repo":"https://github.com/Mouhamed-B/hospital", "link":"https://hospital-peach-mu.vercel.app/" },
-            { "title":"Samba", "icon":"fa-solid fa-adversal", "tags":["HTML/CSS", "SCSS","Bootstrap","Javascript", "Jquery", "Python", "Django", "PostgreSQL"], "description":"Multi-purpose Adverting web platform for everyone written with django and jquery", "image":"", "repo":"https://github.com/Mouhamed-B/samba", "link":"" },
-            { "title":"Printpencil", "icon":"fa-solid fa-print", "tags":["HTML/CSS", "Bootstrap","PHP", "cPanel"], "description":"Showcase site of a fictitious printing company. Made with HTML, CSS, Bootstrap and PHP", "image":"/assets/img/printpencil.webp", "repo":"https://github.com/Mouhamed-B/Printpencil", "link":"http://printpencil.42web.io/"},
-            { "title":"Tiakbook Web", "icon":"fa-solid fa-truck-fast", "tags":["HTML/CSS", "Javascript", "React.js", "MaterialUI", "Firebase"], "description":"delivery Web project with react and material ui", "image":"", "repo":"https://github.com/Mouhamed-B/tiakbook-web", "link":"" },
-            { "title":"Events news", "icon":"fa-solid fa-newspaper", "tags":["HTML/CSS", "Javascript","Typescript", "Angular"], "description":"Tiny blog for events and news listing written with angular", "image":"/assets/img/events-news.webp", "repo":"https://github.com/Mouhamed-B/events-news", "link":"" },
-            { "title":"Tiakbook app", "icon":"fa-solid fa-truck-fast", "tags":["Dart", "Flutter", "Firebase"], "description":"Mobile application for independent couriers to expose their services, and for people to book one of them", "image":"", "repo":"https://github.com/Mouhamed-B/tiakbookapp", "link":"" },
-            { "title":"Travel App", "icon":"fa-solid fa-plane", "tags":["HTML/CSS", "Javascript", "Vue.js"], "description":"Travel app for showcasing destinations with pictures written with vuejs3", "image":"/assets/img/travel-app.webp", "repo":"https://github.com/Mouhamed-B/travel-app", "link":"" },
-            { "title":"Stock Management API", "icon":"fa-solid fa-boxes-stacked", "tags":["Java", "Spring Boot", "PostgreSQL"], "description":"Inventory Management API written with Spring Boot", "image":"", "repo":"https://github.com/Mouhamed-B/stock-manager", "link":"" },
-            { "title":"Stock Management Web", "icon":"fa-solid fa-warehouse", "tags":["HTML/CSS", "Bootstrap", "Javascript", "Vue.js"], "description":"Stock Manager App Web Client written with Vuejs", "image":"", "repo":"https://github.com/Mouhamed-B/stock-manager-web", "link":"" }
+            {
+                "title": "Comoros Open Data Platform",
+                "icon": "fa-solid fa-home",
+                "tags": [
+                    "HTML/CSS",
+                    "Bootstrap",
+                    "Flask",
+                    "Ckan"
+                ],
+                "description": "Open Data platform set to centralize datasets of various fields and organisations",
+                "image": "/assets/img/opendata.webp",
+                "repo": "",
+                "link": "https://opendata-comores.org/"
+            },
+            {
+                "title": "Telemedecine Platform",
+                "icon": "fa-solid fa-home",
+                "tags": [
+                    "HTML/CSS",
+                    "Angular",
+                    "Java",
+                    "Spring Boot",
+                    "Spring Cloud",
+                    "Tailwind"
+                ],
+                "description": "Telemedicine platform providing online healthcare services. Built with 4 angular apps in a microfrontend architecture",
+                "image": "/assets/img/fanel.webp",
+                "repo": "",
+                "link": ""
+            },
+            {
+                "title": "Fleet Management System",
+                "icon": "fa-solid fa-home",
+                "tags": [
+                    "HTML/CSS",
+                    "Nextjs",
+                    "Nodejs",
+                    "tRPC",
+                    "Typescript",
+                    "Tailwind"
+                ],
+                "description": "Fleet Management System including a form for entries and a dashboard for management",
+                "image": "/assets/img/fleet.webp",
+                "repo": "",
+                "link": ""
+            },
+            {
+                "title": "Djamo landing clone",
+                "icon": "fa-solid fa-credit-card",
+                "tags": [
+                    "HTML/CSS",
+                    "TailwindCSS",
+                    "Nextjs",
+                    "Typescript",
+                    "Vercel"
+                ],
+                "description": "Landing page clone of a fintech company, Djamo. Made with Nextjs and TailwindCSS",
+                "image": "/assets/img/djamo.webp",
+                "repo": "https://github.com/Mouhamed-B/djamo-landing",
+                "link": "https://djamo-landing.vercel.app/"
+            },
+            {
+                "title": "Blog API",
+                "icon": "fa-solid fa-database",
+                "tags": [
+                    "Python",
+                    "Django",
+                    "Django REST Framework",
+                    "PostgreSQL"
+                ],
+                "description": "Blog REST API with JWT authentication, file upload and Swagger documentation",
+                "image": "/assets/img/devblog-api.png",
+                "repo": "https://github.com/Mouhamed-B/devblog-api",
+                "link": "https://devblog-api.vercel.app/api/schema/swagger-ui/"
+            },
+            {
+                "title": "Inventory Management API",
+                "icon": "fa-solid fa-boxes-stacked",
+                "tags": [
+                    "Java",
+                    "Spring Boot",
+                    "PostgreSQL"
+                ],
+                "description": "Inventory Management API written with Spring Boot",
+                "image": "",
+                "repo": "https://github.com/Mouhamed-B/stock-manager",
+                "link": ""
+            }
         ]
     },
-    "skills":{
-        "languages":[
-            { "title":"HTML/CSS", "image":"https://storage.googleapis.com/turing_developers/icon/1632728104923_522e6bc1a11d1726a35f81cbd979395f.jpeg"},
-            { "title":"SASS", "image":"https://sass-lang.com/assets/img/logos/logo.svg" },
-            { "title":"Typescript", "image":"https://storage.googleapis.com/turing_developers/icon/1591555851047_typescript.png" },
-            { "title":"Java", "image":"https://storage.googleapis.com/turing_developers/icon/1582585021603_java.png" },
-            { "title":"Python", "image":"https://storage.googleapis.com/turing_developers/icon/1668794249603_python.png" },
-            { "title":"SQL", "image":"https://storage.googleapis.com/turing_developers/icon/1680114381114_pngwing.com.png"},
-            { "title":"PHP", "image":"https://storage.googleapis.com/turing_developers/icon/1687514067611_php.png" }
+    "skills": {
+        "languages": [
+            {
+                "title": "HTML/CSS",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1632728104923_522e6bc1a11d1726a35f81cbd979395f.jpeg"
+            },
+            {
+                "title": "SASS",
+                "image": "https://sass-lang.com/assets/img/logos/logo.svg"
+            },
+            {
+                "title": "Typescript",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1591555851047_typescript.png"
+            },
+            {
+                "title": "Java",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1582585021603_java.png"
+            },
+            {
+                "title": "Python",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1668794249603_python.png"
+            },
+            {
+                "title": "SQL",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1680114381114_pngwing.com.png"
+            },
+            {
+                "title": "PHP",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1687514067611_php.png"
+            }
         ],
-        "frameworks":[
-            { "title":"Angular", "image":"https://storage.googleapis.com/turing_developers/icon/1604091754742_angular.png" },
-            { "title":"React", "image":"https://storage.googleapis.com/turing_developers/icon/1574358617857_reactjs.png" },
-            { "title":"Next", "image":"https://storage.googleapis.com/turing_developers/icon/1686058766370_nextjs.png" },
-            { "title":"Django", "image":"https://storage.googleapis.com/turing_developers/icon/1688567669125_django.png" },
-            { "title":"Spring Boot", "image":"https://storage.googleapis.com/turing_developers/icon/1686918323377_springboot.png" }
+        "frameworks": [
+            {
+                "title": "Angular",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1604091754742_angular.png"
+            },
+            {
+                "title": "React",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1574358617857_reactjs.png"
+            },
+            {
+                "title": "Next",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1686058766370_nextjs.png"
+            },
+            {
+                "title": "Django",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1688567669125_django.png"
+            },
+            {
+                "title": "Spring Boot",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1686918323377_springboot.png"
+            }
         ],
-        "databases":[
-            { "title":"MySQL", "image":"https://storage.googleapis.com/turing_developers/icon/1687513887796_%20mysql.png" },
-            { "title":"PostgreSQL", "image":"https://storage.googleapis.com/turing_developers/icon/1686066320174_postgresql.png" },
-            { "title":"MongoDB", "image":"https://storage.googleapis.com/turing_developers/icon/1594156491355_mongodb.jpg" },
-            { "title":"Firebase", "image":"https://storage.googleapis.com/turing_developers/icon/1595573145225_firebase.jpg" },
-            { "title":"SQLite", "image" :"https://www.sqlite.org/images/sqlite370_banner.gif"}
+        "databases": [
+            {
+                "title": "MySQL",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1687513887796_%20mysql.png"
+            },
+            {
+                "title": "PostgreSQL",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1686066320174_postgresql.png"
+            },
+            {
+                "title": "MongoDB",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1594156491355_mongodb.jpg"
+            },
+            {
+                "title": "Firebase",
+                "image": "https://storage.googleapis.com/turing_developers/icon/1595573145225_firebase.jpg"
+            },
+            {
+                "title": "SQLite",
+                "image": "https://www.sqlite.org/images/sqlite370_banner.gif"
+            }
         ]
     },
-    "experience":{
-        "title":"Experience",
-        "text":"My professional experience",
-        "items":[
-            { "title":"Software Developer", "company":"Freelance","text":"Outreaching potential clients and working with freelance agencies for full stack development services with MySQL and Laravel, Jquery, Nextjs and Angular", "start":"February 2024", "current":true, "end":"", "image":"/assets/img/logo.webp"},
-            { "title":"Software Developer", "company":"Terinnova","text":"Full stack development with angular, nextjs, springboot, flask and react native. CI with docker, bash scripts and aws", "start":"March 2022", "current":false, "end":"January 2024", "image":"/assets/img/terinnova.jpeg"},
-            { "title":"Software Developer Intern", "company":"Terinnova","text":"Frontend development with React, Angular and Nextjs", "start":"August 2021", "current":false,"end":"February 2022", "image":"/assets/img/terinnova.jpeg"},
-            { "title":"Maintenance Intern", "company":"Groupe Supdeco Dakar","text":"Installations and configurations for the computer park", "start":"December 2020", "current":false,"end":"", "image":"/assets/img/logo-supdeco.png"},
-            { "title":"Software Developer Intern", "company":"DEFAR SCI", "text":"Full stack web development with django and jquery", "start":"September 2020", "current":false,"end":"November 2020", "image":"/assets/img/defar-sci.png"}
+    "experience": {
+        "title": "Experience",
+        "text": "My professional experience",
+        "items": [
+            {
+                "title": "Software Developer",
+                "company": "Freelance",
+                "text": "Outreaching potential clients and working with freelance agencies for full stack development services with MySQL and Laravel, Jquery, Nextjs and Angular",
+                "start": "February 2024",
+                "current": true,
+                "end": "",
+                "image": "/assets/img/logo.webp"
+            },
+            {
+                "title": "Software Developer",
+                "company": "Terinnova",
+                "text": "Full stack development with angular, nextjs, springboot, flask and react native. CI with docker, bash scripts and aws",
+                "start": "March 2022",
+                "current": false,
+                "end": "January 2024",
+                "image": "/assets/img/terinnova.jpeg"
+            },
+            {
+                "title": "Software Developer Intern",
+                "company": "Terinnova",
+                "text": "Frontend development with React, Angular and Nextjs",
+                "start": "August 2021",
+                "current": false,
+                "end": "February 2022",
+                "image": "/assets/img/terinnova.jpeg"
+            },
+            {
+                "title": "Maintenance Intern",
+                "company": "Groupe Supdeco Dakar",
+                "text": "Installations and configurations for the computer park",
+                "start": "December 2020",
+                "current": false,
+                "end": "",
+                "image": "/assets/img/logo-supdeco.png"
+            },
+            {
+                "title": "Software Developer Intern",
+                "company": "DEFAR SCI",
+                "text": "Full stack web development with django and jquery",
+                "start": "September 2020",
+                "current": false,
+                "end": "November 2020",
+                "image": "/assets/img/defar-sci.png"
+            }
         ]
     },
-    "contact":{
-        "title":"Contact",
-        "text":"Let's connect",
-        "form":{
-            "name":"",
-            "email":"",
-            "phone":"",
-            "company":"",
-            "subject":"",
-            "message":""
+    "contact": {
+        "title": "Contact",
+        "text": "Let's connect",
+        "form": {
+            "name": "",
+            "email": "",
+            "phone": "",
+            "company": "",
+            "subject": "",
+            "message": ""
         },
-        "nameField":"Your name",
-        "emailField":"Your email",
-        "phoneField":"Your phone number",
-        "companyField":"Your company",
+        "nameField": "Your name",
+        "emailField": "Your email",
+        "phoneField": "Your phone number",
+        "companyField": "Your company",
         "subjectField": "Subject",
-        "messageField":"Message",
-        "buttonText":"Send",
-        "sucessMessage":"Message delivered sucessfully",
-        "failMessage":"Failed to deliver message"
+        "messageField": "Message",
+        "buttonText": "Send",
+        "sucessMessage": "Message delivered sucessfully",
+        "failMessage": "Failed to deliver message"
     },
-    "footer":{
-        "copyrightText":"Copyright © Mouhamed Bakhoum 2024",
-        "links":[
-            {"title":"github", "icon":"fab fa-github","link":"https://github.com/Mouhamed-B"},
-            {"title":"linkedin", "icon":"fab fa-linkedin-in","link":"https://www.linkedin.com/in/mouhamed-bakhoum/"},
-            {"title":"twitter", "icon":"fab fa-twitter","link":"https://twitter.com/MouhamedBkm"}
+    "footer": {
+        "copyrightText": "Copyright © Mouhamed Bakhoum 2024",
+        "links": [
+            {
+                "title": "github",
+                "icon": "fab fa-github",
+                "link": "https://github.com/Mouhamed-B"
+            },
+            {
+                "title": "linkedin",
+                "icon": "fab fa-linkedin-in",
+                "link": "https://www.linkedin.com/in/mouhamed-bakhoum/"
+            },
+            {
+                "title": "twitter",
+                "icon": "fab fa-twitter",
+                "link": "https://twitter.com/MouhamedBkm"
+            }
         ]
     }
 }

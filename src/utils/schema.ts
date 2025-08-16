@@ -50,6 +50,8 @@ export type ExperienceItemProps = {
   current: boolean;
   end: string;
   image: string;
+  // runtime-only prop (not required in data) to signal inverted layout
+  inverted?: boolean;
 };
 
 export type ExperienceProps = {
