@@ -281,7 +281,7 @@
         "start": "Mars 2022",
         "current": true,
         "end": "",
-        "image": "/assets/img/terinnova.jpeg"
+        "image": "/assets/img/terinnova.png"
       },
       {
         "title": "Stagiaire développeur logiciel",
@@ -290,7 +290,7 @@
         "start": "Août 2021",
         "current": false,
         "end": "Février 2022",
-        "image": "/assets/img/terinnova.jpeg"
+        "image": "/assets/img/terinnova.png"
       },
       {
         "title": "Stagiaire en maintenance",
