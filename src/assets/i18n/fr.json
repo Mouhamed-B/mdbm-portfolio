@@ -178,6 +178,19 @@
         "image": "",
         "repo": "https://github.com/Mouhamed-B/stock-manager",
         "link": ""
+      },
+      {
+        "title": "A2SMI",
+        "icon": "fa-solid fa-home",
+        "tags": [
+          "Nextjs",
+          "Tailwind",
+          "Motion"
+        ],
+        "description": "Landing page d'une société tech sénégalaise leader en solutions d'assurance et santé: Africaine des Systèmes de Santé, Management et Informatique",
+        "image": "/assets/img/a2smi.png",
+        "repo": "",
+        "link": "https://a2smi.tech/"
       }
     ]
   },
