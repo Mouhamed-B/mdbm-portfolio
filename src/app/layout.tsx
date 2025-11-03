@@ -13,6 +13,22 @@ export const metadata: Metadata = {
   verification: {
     google: "9CpinwSqIyUYUb5FUre23C_qKw7ieN0u8Q912t86xlo",
   },
+  openGraph: {
+    title: "Mouhamed Bakhoum - Portfolio",
+    description: "Portfolio showcasing Mouhamed Bakhoum's work",
+    url: "https://mdbm.ovh",
+    siteName: "Mouhamed Bakhoum - Portfolio",
+    images: [
+      {
+        url: "/og.png",
+        width: 1867,
+        height: 687,
+        alt: "Mouhamed Bakhoum - Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  }
 };
 
 export default function RootLayout({
