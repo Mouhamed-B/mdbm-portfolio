@@ -152,6 +152,15 @@
         "repo": "https://github.com/Mouhamed-B/djamo-landing",
         "link": "https://djamo-landing.vercel.app/"
       },
+      { 
+            "title": "Application Tiakbook", 
+            "icon": "fa-solid fa-truck-fast", 
+            "tags": ["Dart", "Flutter", "Firebase"], 
+            "description": "Application mobile pour les coursiers indépendants afin de présenter leurs services et permettre aux utilisateurs de réserver l'un d'entre eux", 
+            "image": "/assets/img/tiakbook.jpg", 
+            "repo": "https://github.com/Mouhamed-B/tiakbookapp", 
+            "link": ""
+        },
       {
         "title": "Blog API",
         "icon": "fa-solid fa-database",

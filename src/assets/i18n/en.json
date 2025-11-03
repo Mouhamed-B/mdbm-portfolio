@@ -122,6 +122,20 @@
                 "link": ""
             },
             {
+                "title": "Tiakbook app",
+                "icon": "fa-solid fa-truck-fast",
+                "tags": [
+                    "Dart",
+                    "Flutter",
+                    "Firebase",
+                    "Realtime"
+                ],
+                "description": "Mobile application for independent couriers to expose their services, and for people to book one of them",
+                "image": "/assets/img/tiakbook.jpg",
+                "repo": "https://github.com/Mouhamed-B/tiakbookapp",
+                "link": ""
+            },
+            {
                 "title": "Fleet Management System",
                 "icon": "fa-solid fa-home",
                 "tags": [
