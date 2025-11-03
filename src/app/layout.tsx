@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mouhamed Bakhoum - Portfolio",
+  metadataBase: new URL("https://mdbm.ovh"),
   description: "Portfolio showcasing Mouhamed Bakhoum's work",
   verification: {
     google: "9CpinwSqIyUYUb5FUre23C_qKw7ieN0u8Q912t86xlo",
